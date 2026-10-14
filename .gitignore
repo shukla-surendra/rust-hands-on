@@ -1,0 +1,7 @@
+# Binaries compiled with rustc: ignore everything in concept_programs/
+# except the .rs sources
+concept_programs/*
+!concept_programs/*.rs
+
+# Cargo build output (matches target/ in any project, e.g. employee-api/target)
+target/
